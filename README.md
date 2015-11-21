@@ -19,8 +19,9 @@ virtualenv-13.1.2.tar.gz
 
 ### Usage
 
-#### 1. download the tar.gz and scp to the machine
+#### 1. download the tar.gz and copy/scp to the machine
 
+https://github.com/wklken/offline/archive/v0.1.tar.gz
 
 #### 2. extract
 
