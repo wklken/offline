@@ -6,13 +6,13 @@ CURRENT_DIR=`pwd`
 
 function help_msg() {
     echo "===================== usage ====================="
-    echo "./logstashd.sh  - enter command line"
-    echo "./logstashd.sh status - show all configured process"
-    echo "./logstashd.sh start ${name} - start program"
-    echo "./logstashd.sh stop ${name} - stop program"
-    echo "./logstashd.sh restart ${name} - restart program"
-    echo "./logstashd.sh reread && ./logstashd.sh update - update config and just update the modified programs"
-    echo "./logstashd.sh reload - reload config files and restart all programs(stopeed not included)"
+    echo "./console.sh  - enter command line"
+    echo "./console.sh status - show all configured process"
+    echo "./console.sh start ${name} - start program"
+    echo "./console.sh stop ${name} - stop program"
+    echo "./console.sh restart ${name} - restart program"
+    echo "./console.sh reread && ./logstashd.sh update - update config and just update the modified programs"
+    echo "./console.sh reload - reload config files and restart all programs(stopeed not included)"
     echo "================================================="
     echo ""
 }
