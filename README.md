@@ -74,13 +74,13 @@ edit the `conf/supervisord.conf` and use the `console.sh` to manage the process
 ```
 $ ./console.sh
 ===================== usage =====================
-./logstashd.sh  - enter command line
-./logstashd.sh status - show all configured process
-./logstashd.sh start  - start program
-./logstashd.sh stop  - stop program
-./logstashd.sh restart  - restart program
-./logstashd.sh reread && ./logstashd.sh update - update config and just update the modified programs
-./logstashd.sh reload - reload config files and restart all programs(stopeed not included)
+./console.sh  - enter command line
+./console.sh status - show all configured process
+./console.sh start  - start program
+./console.sh stop  - stop program
+./console.sh restart  - restart program
+./console.sh reread && ./console.sh update - update config and just update the modified programs
+./console.sh reload - reload config files and restart all programs(stopeed not included)
 =================================================
 
 supervisor> status  # show processes status
